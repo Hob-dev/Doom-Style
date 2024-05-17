@@ -17,10 +17,15 @@ Building and Running -
 Doom-Style comes with executables, but you can also build them if you want.
 
 If you want to build them:
+
 (g++ compiles cpp as exectuables)
+
 Editor:
+
   g++ -fdiagnostics-color=always -g "\path\to\Doom-Style\src\editor.cpp" -o "\path\to\Doom-Style\editor.exe" "-IC:/path/to/Doom-Style/src/include" "-LC:/path/to/Doom-Style/src/lib" -lSDL2 -lSDL2main
+
 Renderer:
+
   g++ -fdiagnostics-color=always -g "\path\to\Doom-Style\src\rendering.cpp" -o "\path\to\Doom-Style\rendering.exe" "-IC:/path/to/Doom-Style/src/include" "-LC:/path/to/Doom-Style/src/lib" -lSDL2 -lSDL2main
 
 If you want to run them:
