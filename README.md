@@ -29,12 +29,17 @@ Renderer:
   g++ -fdiagnostics-color=always -g "\path\to\Doom-Style\src\rendering.cpp" -o "\path\to\Doom-Style\rendering.exe" "-IC:/path/to/Doom-Style/src/include" "-LC:/path/to/Doom-Style/src/lib" -lSDL2 -lSDL2main
 
 If you want to run them:
+
 (Note: executables must be in folder with SDL2.dll)
 
 cd "path\to\Doom-Style"
+
 editor.exe
+
 rendering.exe
 
+
 or
+
 
 run the exectuables from the folder
